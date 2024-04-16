@@ -1,0 +1,101 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #59b45a;
+  border: 4px solid black;
+ 
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  
+  
+}
+
+/* App.css */
+
+/* Styles for select element */
+.form-select {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  display: flex; /* Use flexbox */
+  align-items: center; /* Vertically center items */
+  
+}
+
+/* Styles for input field */
+.form-input {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Additional styles can be added based on your design preferences */
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 4px solid rgb(40, 107, 48);
+  padding: 10p;
+}
+
+.add-form {
+  background-color: #c8b82d;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border: 4px solid black;
+  
+}
+
+.list {
+  background-color: #a4bb31;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border: 4px solid black;
+}
+
+.stats {
+  position: fixed;
+  bottom: 10px;
+  font-size: 0.9rem;
+  color: #555;
+  border-bottom: 8px;
+  border: 4px solid black;
+}
+.form-container {
+  display: flex;
+}
+.btn{
+  background-color: #007bff; /* Blue background color */
+  color: #ffffff; /* White text color */
+  border: none;
+  padding: 12px 24px; /* Adjust padding to increase button size */
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; /* Adjust font size */
+  width: 70px; /* Adjust width */
+  height: 37px; /* Adjust height */
+  
+
+}
